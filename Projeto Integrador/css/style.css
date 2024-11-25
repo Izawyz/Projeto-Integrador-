@@ -1,0 +1,114 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8A6B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner principal */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Imagem de perfil */
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Nome do usuário */
+.perfil h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Formulário de login */
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+.form-login label {
+    font-size: 0.9em;
+    color: #555;
+    text-align: left;
+}
+
+.form-login input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.form-login input:focus {
+    border-color: #007bff;
+}
+
+/* Botão de logar */
+.btn-logar {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-logar:hover {
+    background-color: #0056b3;
+}
+
+/* Ações (Editar Perfil e Sair) */
+.actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.actions button {
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.actions button:hover {
+    background-color: #218838;
+}
+
+.actions button:last-child {
+    background-color: #dc3545;
+}
+
+.actions button:last-child:hover {
+    background-color: #c82333;
+}
+
+
